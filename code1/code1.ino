@@ -3,9 +3,9 @@
 //Library version:1.1 
 #include <LiquidCrystal_I2C.h> 
 LiquidCrystal_I2C  lcd(0x3F,16,2);   // set the LCD address to 0x27 for a 16 chars and 2 line display 
-int led= 4;
+int led= 2;
 int senzor = A1;
-int tlacitko = 3;
+int tlacitko = 4;
 int stav = 1;
 const int  AUTOMAT = 1;
 const int  SVITI = 2;
